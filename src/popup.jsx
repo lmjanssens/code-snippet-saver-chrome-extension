@@ -20,4 +20,3 @@ function Popup() {
 const container = document.getElementById("react-target");
 const root = createRoot(container);
 root.render(<Popup />);
-// render(<Popup />, document.getElementById("react-target"));
