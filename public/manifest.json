@@ -1,0 +1,19 @@
+{
+    "name": "Code snippet saver",
+    "description": "A ReactJS chrome extension to save code snippets!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": "eventPage.js"
+    },
+    "permissions": [
+        "contextMenus"
+    ]
+  }
+  
